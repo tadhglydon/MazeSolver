@@ -34,7 +34,7 @@ OUTPUT:
  the maze with a path from start to end
  walls marked by '#', passages marked by ' ', path marked by 'X', start/end marked by 'S'/'E'
 
-Example file:  
+    Example file:  
     10 10
     1 1
     8 8
