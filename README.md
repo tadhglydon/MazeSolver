@@ -16,15 +16,6 @@ should be written to the following specification:
   - The program should be tested on the sample mazes provided
   - Output should be written to the Standard Output/Console
 
-The emphasis should be on code readability and simplicity. Runtime for all of the sample mazes should be <30 seconds.
-
-All the sample mazes do have a solution!
-  
-Please email the solution in source code form, with short instructions on how to run.
-
-Good luck!
-
-
 
 Maze file format
 ================
@@ -44,29 +35,29 @@ OUTPUT:
  walls marked by '#', passages marked by ' ', path marked by 'X', start/end marked by 'S'/'E'
 
 Example file:  
-10 10
-1 1
-8 8
-1 1 1 1 1 1 1 1 1 1
-1 0 0 0 0 0 0 0 0 1
-1 0 1 0 1 1 1 1 1 1
-1 0 1 0 0 0 0 0 0 1
-1 0 1 1 0 1 0 1 1 1
-1 0 1 0 0 1 0 1 0 1
-1 0 1 0 0 0 0 0 0 1
-1 0 1 1 1 0 1 1 1 1
-1 0 1 0 0 0 0 0 0 1
-1 1 1 1 1 1 1 1 1 1
+    10 10
+    1 1
+    8 8
+    1 1 1 1 1 1 1 1 1 1
+    1 0 0 0 0 0 0 0 0 1
+    1 0 1 0 1 1 1 1 1 1
+    1 0 1 0 0 0 0 0 0 1
+    1 0 1 1 0 1 0 1 1 1
+    1 0 1 0 0 1 0 1 0 1
+    1 0 1 0 0 0 0 0 0 1
+    1 0 1 1 1 0 1 1 1 1
+    1 0 1 0 0 0 0 0 0 1
+    1 1 1 1 1 1 1 1 1 1
 
-OUTPUT:
-##########
-#SXX     #
-# #X######
-# #XX    #
-# ##X# ###
-# # X# # #
-# # XX   #
-# ###X####
-# #  XXXE#
-##########
+    OUTPUT:
+    ##########
+    #SXX     #
+    # #X######
+    # #XX    #
+    # ##X# ###
+    # # X# # #
+    # # XX   #
+    # ###X####
+    # #  XXXE#
+    ##########
 
