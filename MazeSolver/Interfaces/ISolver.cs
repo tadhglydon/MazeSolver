@@ -5,8 +5,9 @@ using System.Text;
 
 namespace MazeSolver
 {
-    interface IMazeSolver
+    public interface ISolver
     {
-        bool Solve();
+        bool Validate();
+        Maze Solve(Maze maze);
     }
 }

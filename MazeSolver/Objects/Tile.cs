@@ -1,4 +1,9 @@
-﻿namespace MazeSolver
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace MazeSolver
 {
     public class Tile
     {
@@ -13,4 +18,7 @@
             Type = type;
         }
     }
+
+
+    public enum TileType { FreeSpace, Wall }
 }
