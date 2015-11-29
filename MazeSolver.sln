@@ -1,18 +1,50 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver", "MazeSolver\MazeSolver.csproj", "{BE11BA75-132E-4DC6-A8DE-E76FCD3BBDC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver", "MazeSolver\MazeSolver.csproj", "{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolverUnitTest", "MazeSolverUnitTest\MazeSolverUnitTest.csproj", "{4DDB2367-DD52-4B82-96AC-AA943A2740A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D43867C-2B39-443D-927B-64FF5E6EACD1}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MazeSolver.vsmdi = MazeSolver.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MazeSolver.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE11BA75-132E-4DC6-A8DE-E76FCD3BBDC2}.Debug|x86.ActiveCfg = Debug|x86
-		{BE11BA75-132E-4DC6-A8DE-E76FCD3BBDC2}.Debug|x86.Build.0 = Debug|x86
-		{BE11BA75-132E-4DC6-A8DE-E76FCD3BBDC2}.Release|x86.ActiveCfg = Release|x86
-		{BE11BA75-132E-4DC6-A8DE-E76FCD3BBDC2}.Release|x86.Build.0 = Release|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Debug|x86.ActiveCfg = Debug|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Debug|x86.Build.0 = Debug|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Release|Any CPU.ActiveCfg = Release|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Release|Mixed Platforms.Build.0 = Release|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Release|x86.ActiveCfg = Release|x86
+		{30EEE8C7-9DDA-4A52-9456-4DFAE3F78337}.Release|x86.Build.0 = Release|x86
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4DDB2367-DD52-4B82-96AC-AA943A2740A1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

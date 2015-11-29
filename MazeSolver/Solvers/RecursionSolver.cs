@@ -27,6 +27,7 @@ namespace MazeSolver
             {
                 maze.mazeLayout[cell.X, cell.Y].SolutionPath = true;
             }
+            maze.mazeLayout[maze.end_x, maze.end_y].SolutionPath = true;
 
             return localMaze;
         }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MazeSolver
 {
-    public class Tile
+    public class Tile 
     {
         public TileType Type { get; set; }
         public bool Visited { get; set; }
@@ -18,7 +18,6 @@ namespace MazeSolver
             Type = type;
         }
     }
-
 
     public enum TileType { FreeSpace, Wall }
 }

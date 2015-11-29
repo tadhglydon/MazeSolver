@@ -3,6 +3,3 @@ c:\dev\MazeSolver\MazeSolver\bin\Debug\MazeSolver.pdb
 c:\dev\MazeSolver\MazeSolver\obj\x86\Debug\MazeSolver.exe
 c:\dev\MazeSolver\MazeSolver\obj\x86\Debug\MazeSolver.pdb
 c:\dev\MazeSolver\MazeSolver\bin\Debug\MazeSolver.exe.config
-C:\Users\tlydon\Documents\GitHub\MazeSolver\MazeSolver\bin\Debug\MazeSolver.exe.config
-C:\Users\tlydon\Documents\GitHub\MazeSolver\MazeSolver\obj\x86\Debug\MazeSolver.exe
-C:\Users\tlydon\Documents\GitHub\MazeSolver\MazeSolver\obj\x86\Debug\MazeSolver.pdb
